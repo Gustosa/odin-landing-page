@@ -37,8 +37,6 @@ body {
 
 .container {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex: 1;
 }
 
@@ -46,7 +44,7 @@ body {
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
-    padding: 0 100px;
+    padding: 100px;
 }
 
 .awesome-website .left {
@@ -62,7 +60,7 @@ body {
     font-weight: bolder;
 }
 
-.awesome-website .left .text{
+.awesome-website .left .text {
     color: #e5e7eb;
     font-size: 18px;
 }
@@ -81,13 +79,52 @@ body {
     background-color: gray;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex: 1;
 }
 
 .awesome-website .right img {
     color: #f9faf8;
     font-size: 18px;
+    text-align: center;
 }
+
+.random-info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.random-info .header-info {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 30px;
+}
+
+.random-info .cards {
+    display: flex;
+}
+
+.card {
+    width: 200px;
+    margin: 0 20px;
+}
+
+.card .placeholder {
+    border: 2px solid #3882f6;
+    border-radius: 16px;
+    padding: 92px 20px;
+
+}
+
+.card .text {
+    color: #1f2937;
+    font-size: 18px;
+    text-align: center;
+}
+
 
 .footer {
     display: flex;
